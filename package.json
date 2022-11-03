@@ -1,0 +1,22 @@
+{
+  "name": "exercise_five",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LauraLach/exercise-five.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LauraLach/exercise-five/issues"
+  },
+  "homepage": "https://github.com/LauraLach/exercise-five#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
