@@ -1,6 +1,6 @@
 const { response } = require('express');
-const express = require('express')
-const router = express.Router()
+const express = require('express');
+const router = express.Router();
 const firestore = require("firebase/firestore");
 const db = firestore.getFirestore();
 

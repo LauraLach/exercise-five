@@ -1,6 +1,6 @@
 const { response } = require('express');
-const express = require('express')
-const router = express.Router()
+const express = require('express');
+const router = express.Router();
 const firestore = require("firebase/firestore");
 const db = firestore.getFirestore();
 
@@ -25,8 +25,6 @@ router.get('/', (req, res) => {
       console.log(error);
       return res.send(error);
     });
-  // return querySnapshot.forEach((post) => {
-  //   console.log(`${post.id} => ${post.data()}`);
   });
 
 module.exports = router;
