@@ -7,12 +7,12 @@ const createPostForm = `
     <h1>Create Post</h1>
     <form action="/create/submit">
         <div style="display: flex; flex-direction: column; max-width: 400px;">
-            <label for="postTitle">Title</label>
-            <input type="text" name="postTitle" placeholder="Title" />
-            <label for="postText">Text</label>
-            <input type="text" name="postText" placeholder="Text" />
-            <label for="author">Author</label>
-            <input type="text" name="author" placeholder="Author" />
+            <label for="postTitle" style="font-size: 20px;">Title</label>
+            <input type="text" name="postTitle" placeholder="Title" style="margin-bottom: 20px;"/>
+            <label for="postText" style="font-size: 20px;">Text</label>
+            <input type="text" name="postText" placeholder="Text" style="margin-bottom: 20px;"/>
+            <label for="author" style="font-size: 20px;">Author</label>
+            <input type="text" name="author" placeholder="Author" style="margin-bottom: 20px;"/>
             <button type="submit">Submit</button>
         </div>
     </form>
