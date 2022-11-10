@@ -1,5 +1,4 @@
 const express = require('express');
-// const router = express.Router();
 const firebase = require("firebase/app");
 const app = express();
 const port = process.env.PORT || 4000;
